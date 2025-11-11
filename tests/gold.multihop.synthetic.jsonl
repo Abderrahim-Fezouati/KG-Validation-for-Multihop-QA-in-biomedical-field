@@ -1,0 +1,50 @@
+{"idx":1,"head_surface":"acetylcholinesterase inhibitors","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":2,"head_surface":"antidepressive agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":3,"head_surface":"aldehyde","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":4,"head_surface":"anti inflammatory agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":5,"head_surface":"carcinogens","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":6,"head_surface":"dopaminergic agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":7,"head_surface":"antiviral agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":8,"head_surface":"adrenal cortex hormones","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":9,"head_surface":"antigens","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":10,"head_surface":"epitope","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":11,"head_surface":"antimetabolites","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":12,"head_surface":"anti inflammatory agents non steroidal","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":13,"head_surface":"beta n acetylhexosaminidases","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":14,"head_surface":"macrophage chemotactic factors","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":15,"head_surface":"alkalies","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":16,"head_surface":"dioxins","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":17,"head_surface":"drug combinations","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":18,"head_surface":"aromatase","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":19,"head_surface":"pharmaceutical preparations","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":20,"head_surface":"antiemetics","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":21,"head_surface":"antihypertensive agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":22,"head_surface":"cephalosporin antibacterial epc","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":23,"head_surface":"biogenic amines","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":24,"head_surface":"anti arrhythmia agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":25,"head_surface":"anti inflammatory agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":26,"head_surface":"antibodies monoclonal","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":27,"head_surface":"antigens","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":28,"head_surface":"alloys","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":29,"head_surface":"carbohydrate","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":30,"head_surface":"analgesic","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":31,"head_surface":"aldehyde reductase","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":32,"head_surface":"calcium channel blockers","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":33,"head_surface":"anti inflammatory agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":34,"head_surface":"analgesic","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":35,"head_surface":"complement system proteins","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":36,"head_surface":"antibodies monoclonal","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":37,"head_surface":"drug combinations","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":38,"head_surface":"amphetamines","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":39,"head_surface":"anti inflammatory agents","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":40,"head_surface":"antibiotics aminoglycoside","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":41,"head_surface":"antibodies","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":42,"head_surface":"c reactive protein","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":43,"head_surface":"aromatase","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":44,"head_surface":"aldehyde","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":45,"head_surface":"antibodies","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":46,"head_surface":"allergens","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":47,"head_surface":"antigens","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":48,"head_surface":"adenylyl cyclases","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":49,"head_surface":"antioxidants","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":50,"head_surface":"diuretics","relation":"ADVERSE_EFFECT","intent":"multihop"}

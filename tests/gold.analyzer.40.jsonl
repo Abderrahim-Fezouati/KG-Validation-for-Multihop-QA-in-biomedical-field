@@ -1,0 +1,40 @@
+﻿{"idx":1,"head_surface":"adalimumab","head_cui":"drug_adalimumab","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":2,"head_surface":"adalimumab","head_cui":"drug_adalimumab","relation":"INTERACTS_WITH","intent":"yesno"}
+{"idx":3,"head_surface":"adverse effects","head_cui":"drug_pembrolizumab","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":4,"head_surface":null,"head_cui":null,"relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":5,"head_surface":"adverse effects","head_cui":"disease_adverse_effects","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":6,"head_surface":"adverse effects","head_cui":"disease_adverse_effects","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":7,"head_surface":"adverse effects","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":8,"head_surface":"adverse effects","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":9,"head_surface":"adverse effects","head_cui":"drug_carcinogens","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":10,"head_surface":"adverse effects","head_cui":"drug_pegylated_liposomal_irinotecan","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":11,"head_surface":"adverse effects","head_cui":"drug_tenifatecan","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":12,"head_surface":"adverse effects","head_cui":"drug_glycol","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":13,"head_surface":"adverse effects","head_cui":"drug_firtecan_pegol","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":14,"head_surface":"adverse effects","head_cui":"drug_hydrochloride","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":15,"head_surface":"adalimumab","head_cui":"drug_adalimumab","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":16,"head_surface":"adverse effects","head_cui":"disease_adverse_effects","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":17,"head_surface":"adverse event","head_cui":"drug_pembrolizumab","relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":18,"head_surface":"hepatotoxicity","head_cui":"disease_hepatotoxicity","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":19,"head_surface":null,"head_cui":null,"relation":"ADVERSE_EFFECT","intent":"multihop"}
+{"idx":20,"head_surface":"adalimumab","head_cui":"drug_adalimumab","relation":"INTERACTS_WITH","intent":"yesno"}
+{"idx":21,"head_surface":"adverse effects","head_cui":"disease_adverse_effects","relation":"ADVERSE_EFFECT","intent":"factoid"}
+{"idx":22,"head_surface":"adverse effects","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":23,"head_surface":"antigen","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":24,"head_surface":"adverse effects","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":25,"head_surface":"adverse effects","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":26,"head_surface":"antigen","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":27,"head_surface":"antigen","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":28,"head_surface":"antigen","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":29,"head_surface":"antigen","head_cui":"drug_antigens","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":30,"head_surface":"db-67","head_cui":"drug_db_67","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":31,"head_surface":"dna strand break","head_cui":"drug_pegylated_liposomal_irinotecan","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":32,"head_surface":"dna strand break","head_cui":"drug_tenifatecan","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":33,"head_surface":"dna strand break","head_cui":"drug_glycol","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":34,"head_surface":"dna strand break","head_cui":"drug_firtecan_pegol","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":35,"head_surface":"dna strand break","head_cui":"drug_hydrochloride","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":36,"head_surface":null,"head_cui":null,"relation":"INTERACTS_WITH","intent":"multihop"}
+{"idx":37,"head_surface":null,"head_cui":null,"relation":"INTERACTS_WITH","intent":"multihop"}
+{"idx":38,"head_surface":null,"head_cui":null,"relation":"INTERACTS_WITH","intent":"multihop"}
+{"idx":39,"head_surface":"angioedema","head_cui":"drug_inhibitor","relation":"ADVERSE_EFFECT","intent":"yesno"}
+{"idx":40,"head_surface":"pembrolizumab","head_cui":"drug_pembrolizumab","relation":"ADVERSE_EFFECT","intent":"yesno"}
