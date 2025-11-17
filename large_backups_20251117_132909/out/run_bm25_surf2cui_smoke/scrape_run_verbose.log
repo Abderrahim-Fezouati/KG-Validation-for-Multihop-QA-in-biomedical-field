@@ -1,0 +1,160 @@
+================================================================================
+Query 1: Does drug_aldesleukin interact with drug_receptors_interleukin_2 clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_receptors_interleukin_2'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_denosumab'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_etanercept'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_interferon_alfa_n1'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_interferon_gamma_1b'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_adalimumab'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_infliximab'), 'present': True}, {'edge': ('drug_aldesleukin', 'INTERACTS_WITH', 'drug_interferon_beta_1b'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 2: Does drug_alemtuzumab interact with drug_cd52_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_cd52_protein_human'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_cd52_antigen'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_denosumab'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_etanercept'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2a'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n1'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n3'), 'present': True}, {'edge': ('drug_alemtuzumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2b'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 3: Does drug_atezolizumab interact with drug_cd274_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_cd274_protein_human'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_estrogens_conjugated_synthetic_a'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_estrogens_conjugated_synthetic_b'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_esterified_estrogens'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_human_immunoglobulin_g'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_omalizumab'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_adalimumab'), 'present': True}, {'edge': ('drug_atezolizumab', 'INTERACTS_WITH', 'drug_abciximab'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 4: Does drug_neutral_protamine_hagedorn_nph_insulin interact with drug_insr_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_neutral_protamine_hagedorn_nph_insulin', 'INTERACTS_WITH', 'drug_insr_protein_human'), 'present': True}, {'edge': ('drug_neutral_protamine_hagedorn_nph_insulin', 'INTERACTS_WITH', 'drug_blood_glucose'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 5: Does drug_db_67 interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_db_67', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 6: Does drug_pegylated_liposomal_irinotecan interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_pegylated_liposomal_irinotecan', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 7: Does drug_tenifatecan interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_tenifatecan', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 8: Does drug_polyethyleneglycol_7_ethyl_10_hydroxycamptothecin_dfp_13318 interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_polyethyleneglycol_7_ethyl_10_hydroxycamptothecin_dfp_13318', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 9: Does drug_firtecan_pegol interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_firtecan_pegol', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}, {'edge': ('drug_firtecan_pegol', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 10: Does drug_oral_irinotecan_hydrochloride_formulation_val_413 interact with drug_top1_protein_human clinically?
+text_topk: 50 results; top1=(PMID:30937484, 17.22786101595907)
+kg_verdicts: [{'edge': ('drug_oral_irinotecan_hydrochloride_formulation_val_413', 'INTERACTS_WITH', 'drug_top1_protein_human'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 11: What side effects are documented for drug_antigens?
+text_topk: 50 results; top1=(PMID:12830473, 19.02580344269382)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 12: What side effects are documented for drug_antigens?
+text_topk: 50 results; top1=(PMID:12830473, 19.02580344269382)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 13: What side effects are documented for drug_autoantigens?
+text_topk: 50 results; top1=(PMID:39145457, 22.41728679119474)
+kg_verdicts: [{'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_autoimmune_reaction'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_arthritic_joint_disease'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_rheumatoid_arthritis'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_autoimmune_disease'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_primary_biliary_cholangitis'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_tissue_damage'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_demyelination'), 'present': True}, {'edge': ('drug_autoantigens', 'ADVERSE_EFFECT', 'disease_diabetes'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 14: What side effects are documented for drug_carcinogens?
+text_topk: 50 results; top1=(PMID:8366174, 21.87629315400961)
+kg_verdicts: [{'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_carcinogen_effect_in_offspring'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_adenocarcinoma'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_adenoma'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_aneuploidy'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_urinary_bladder_cancer'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_urinary_bladder_neoplasm'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_brain_neoplasm'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_breast_cancer'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 15: What side effects are documented for drug_db_67?
+text_topk: 50 results; top1=(PMID:15341684, 16.23152618282565)
+kg_verdicts: [{'edge': ('drug_db_67', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 16: What side effects are documented for drug_pegylated_liposomal_irinotecan?
+text_topk: 50 results; top1=(PMID:15341684, 16.23152618282565)
+kg_verdicts: [{'edge': ('drug_pegylated_liposomal_irinotecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 17: What side effects are documented for drug_tenifatecan?
+text_topk: 50 results; top1=(PMID:15341684, 16.23152618282565)
+kg_verdicts: [{'edge': ('drug_tenifatecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 18: What side effects are documented for drug_polyethyleneglycol_7_ethyl_10_hydroxycamptothecin_dfp_13318?
+text_topk: 50 results; top1=(PMID:15341684, 16.23152618282565)
+kg_verdicts: [{'edge': ('drug_polyethyleneglycol_7_ethyl_10_hydroxycamptothecin_dfp_13318', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 19: What side effects are documented for drug_firtecan_pegol?
+text_topk: 50 results; top1=(PMID:15341684, 16.23152618282565)
+kg_verdicts: [{'edge': ('drug_firtecan_pegol', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1
+================================================================================
+Query 20: What side effects are documented for drug_oral_irinotecan_hydrochloride_formulation_val_413?
+text_topk: 50 results; top1=(PMID:7858832, 17.178556945332087)
+kg_verdicts: [{'edge': ('drug_oral_irinotecan_hydrochloride_formulation_val_413', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@50: 1.000
+hops: 1

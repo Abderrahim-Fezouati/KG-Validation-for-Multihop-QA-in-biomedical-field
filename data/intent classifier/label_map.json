@@ -1,0 +1,12 @@
+{
+  "label2id": {
+    "factoid": 0,
+    "yesno": 1,
+    "list": 2
+  },
+  "id2label": {
+    "0": "factoid",
+    "1": "yesno",
+    "2": "list"
+  }
+}

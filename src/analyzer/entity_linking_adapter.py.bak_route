@@ -1,0 +1,16 @@
+﻿# --- Relation→expected types (head_types, tail_types) ---
+REL_TYPES = {
+    "INTERACTS_WITH":      (["drug","protein"], ["drug","protein"]),
+    "ADVERSE_EFFECT":      (["drug"], ["disease"]),
+    "CONTRAINDICATED_FOR": (["drug"], ["disease"]),
+    "MECHANISM_OF_ACTION": (["drug"], ["protein","gene"]),
+}
+
+def get_allowed_types(relation: str, slot: str):
+    rel = (relation or "").upper()
+    head_allowed, tail_allowed = REL_TYPES.get(
+        rel,
+        (["drug","disease","protein","gene","chemical"],)*2
+    )
+    return head_allowed if slot == "head" else tail_allowed
+

@@ -1,0 +1,320 @@
+================================================================================
+Query 1: Does metformin interact with cimetidine?
+text_topk: 80 results; top1=(PMID:8487790, 19.697895655268702)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 2: What side effects are commonly reported with isotretinoin?
+text_topk: 80 results; top1=(PMID:7979022, 21.325165263722077)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 3: Is warfarin contraindicated during pregnancy?
+text_topk: 80 results; top1=(PMID:15301383, 21.175875820811708)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 4: Does omeprazole reduce the effectiveness of clopidogrel?
+text_topk: 80 results; top1=(PMID:19247187, 18.84021022984273)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 5: What adverse effects are associated with amiodarone?
+text_topk: 80 results; top1=(PMID:18929680, 21.652430209718688)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 6: Does fluoxetine interact with tramadol?
+text_topk: 80 results; top1=(PMID:10465693, 20.670373991087292)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 7: What conditions are treated with infliximab?
+text_topk: 80 results; top1=(PMID:14682196, 23.810195093937946)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 8: Is spironolactone linked to hyperkalemia?
+text_topk: 80 results; top1=(PMID:25572273, 22.658944943779435)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 9: What are the known side effects of carbamazepine?
+text_topk: 80 results; top1=(PMID:12897634, 22.363990842403176)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 10: Does grapefruit juice affect simvastatin safety?
+text_topk: 80 results; top1=(PMID:19153985, 23.220065798728154)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 11: Is ibuprofen associated with gastrointestinal bleeding?
+text_topk: 80 results; top1=(PMID:24283213, 21.875836277601124)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 12: What diseases are treated by rituximab?
+text_topk: 80 results; top1=(PMID:19757315, 19.064720721182617)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 13: Does lithium interact with ACE inhibitors?
+text_topk: 80 results; top1=(PMID:30805791, 27.987920789693387)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 14: Are macrolide antibiotics linked to QT prolongation?
+text_topk: 80 results; top1=(PMID:19031039, 28.159329271083642)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 15: Is linezolid associated with serotonin syndrome when combined with SSRIs?
+text_topk: 80 results; top1=(PMID:38847376, 40.467723853552464)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 16: What adverse reactions are reported for vancomycin?
+text_topk: 80 results; top1=(PMID:10451036, 23.221395043211402)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 17: Does St. John’s wort reduce the effect of oral contraceptives?
+text_topk: 80 results; top1=(PMID:7888991, 23.4923388453391)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 18: Is doxycycline safe during pregnancy?
+text_topk: 80 results; top1=(PMID:30336141, 24.661250017273083)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 19: Does azathioprine interact with allopurinol?
+text_topk: 80 results; top1=(PMID:7870233, 19.18959022102302)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 20: What side effects are typical for metoclopramide?
+text_topk: 80 results; top1=(PMID:10099062, 20.949961888305694)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 21: Is clozapine associated with agranulocytosis?
+text_topk: 80 results; top1=(PMID:40814911, 21.84308380521363)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 22: Does rifampin lower the plasma concentration of warfarin?
+text_topk: 80 results; top1=(PMID:30589098, 23.18889575428682)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 23: Which conditions are indications for bevacizumab therapy?
+text_topk: 80 results; top1=(PMID:19451611, 21.914614945875414)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 24: Is amoxicillin linked to allergic rash?
+text_topk: 80 results; top1=(PMID:25316563, 22.12677487565259)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 25: Does sertraline interact with monoamine oxidase inhibitors?
+text_topk: 80 results; top1=(PMID:8255365, 30.24613641786787)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 26: What adverse effects should be monitored with gentamicin?
+text_topk: 80 results; top1=(PMID:7870233, 26.284308482004214)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 27: Is lamotrigine associated with Stevens–Johnson syndrome?
+text_topk: 80 results; top1=(PMID:8096307, 38.23135178796861)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 28: Does ketoconazole increase tacrolimus levels?
+text_topk: 80 results; top1=(PMID:10089773, 21.91099937107095)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 29: What conditions are treated with adalimumab?
+text_topk: 80 results; top1=(PMID:19036225, 21.203703220947585)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 30: Is valproate teratogenic when used in the first trimester?
+text_topk: 80 results; top1=(PMID:39218287, 18.392612092730996)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 31: Does digoxin interact with verapamil?
+text_topk: 80 results; top1=(PMID:14982968, 20.808259621240435)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 32: What are the typical side effects of methotrexate?
+text_topk: 80 results; top1=(PMID:39387403, 19.813688545831152)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 33: Is tramadol associated with seizure risk at high doses?
+text_topk: 80 results; top1=(PMID:19398682, 22.697658997588526)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 34: Does grapefruit juice increase cyclosporine exposure?
+text_topk: 80 results; top1=(PMID:19153985, 23.220065798728154)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 35: Which cancers are treated with pembrolizumab?
+text_topk: 80 results; top1=(PMID:38717744, 21.759636179355)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 36: Is aspirin associated with Reye’s syndrome in children?
+text_topk: 80 results; top1=(PMID:8302812, 24.234549074792746)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 37: Does clarithromycin increase levels of statins?
+text_topk: 80 results; top1=(PMID:10466907, 21.184138463461053)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 38: What adverse effects are associated with clozapine plus benzodiazepines?
+text_topk: 80 results; top1=(PMID:40814911, 22.226045804754797)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 39: Is ACE inhibitor use linked to angioedema?
+text_topk: 80 results; top1=(PMID:18988727, 32.33083670947728)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 40: Does levodopa interact with nonselective MAO inhibitors?
+text_topk: 80 results; top1=(PMID:10333164, 30.03424663932195)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1

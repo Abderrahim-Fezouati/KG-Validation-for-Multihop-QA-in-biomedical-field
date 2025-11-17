@@ -1,0 +1,4 @@
+{
+  "model": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+  "dim": 768
+}

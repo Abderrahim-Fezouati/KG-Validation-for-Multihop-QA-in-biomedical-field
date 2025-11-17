@@ -1,0 +1,4 @@
+﻿"drug_adalimumab","INTERACTS_WITH","drug_infliximab"
+"drug_adalimumab","INTERACTS_WITH","drug_etanercept"
+"drug_pembrolizumab","INTERACTS_WITH","drug_adalimumab"
+"drug_infliximab","INTERACTS_WITH","drug_etanercept"

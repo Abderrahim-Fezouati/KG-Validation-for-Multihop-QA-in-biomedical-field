@@ -1,0 +1,33 @@
+﻿# --- Relation→expected types (head_types, tail_types) ---
+REL_TYPES = {
+    "INTERACTS_WITH":      (["drug","protein"], ["drug","protein"]),
+    "ADVERSE_EFFECT":      (["drug"], ["disease"]),
+    "CONTRAINDICATED_FOR": (["drug"], ["disease"]),
+    "MECHANISM_OF_ACTION": (["drug"], ["protein","gene"]),
+}
+
+def get_allowed_types(relation: str, slot: str):
+    rel = (relation or "").upper()
+    head_allowed, tail_allowed = REL_TYPES.get(
+        rel,
+        (["drug","disease","protein","gene","chemical"],)*2
+    )
+    return head_allowed if slot == "head" else tail_allowed
+
+def _routed_link(self, mention_text: str, relation: str, slot: str, topk: int = 10):
+    """
+    Centralized entry to the linker that enforces relation-aware expected types.
+    """
+    types = get_allowed_types(relation, slot)
+    # Try the common SapBERTLinker API first
+    if hasattr(self.linker, "link"):
+        return self.linker.link(mention_text, expected_types=types, topk=topk)
+    # Fallbacks: some linkers expose different names
+    if hasattr(self.linker, "link_text"):
+        return self._routed_link(m, relation, slot)
+    if hasattr(self.linker, "link_mentions"):
+        # Some APIs expect a list of mentions
+        return self.linker.link_mentions([mention_text], expected_types=types, topk=topk)[0]
+    raise AttributeError("No compatible link(...) method found on self.linker")
+
+

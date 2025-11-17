@@ -1,0 +1,302 @@
+﻿{"id":"YN001","question":"Does metformin cause lactic acidosis?","label":"yesno"}
+{"id":"YN002","question":"Is warfarin contraindicated during pregnancy?","label":"yesno"}
+{"id":"YN003","question":"Does ibuprofen interact with warfarin?","label":"yesno"}
+{"id":"YN004","question":"Can amoxicillin treat a viral infection?","label":"yesno"}
+{"id":"YN005","question":"Is aspirin safe for children with viral fever?","label":"yesno"}
+{"id":"YN006","question":"Does clopidogrel increase bleeding risk?","label":"yesno"}
+{"id":"YN007","question":"Is insulin required in type 1 diabetes?","label":"yesno"}
+{"id":"YN008","question":"Does statin therapy cause muscle pain?","label":"yesno"}
+{"id":"YN009","question":"Is heparin an anticoagulant?","label":"yesno"}
+{"id":"YN010","question":"Does doxycycline cause photosensitivity?","label":"yesno"}
+{"id":"YN011","question":"Can ACE inhibitors cause cough?","label":"yesno"}
+{"id":"YN012","question":"Is paracetamol hepatotoxic at high doses?","label":"yesno"}
+{"id":"YN013","question":"Does omeprazole inhibit gastric acid secretion?","label":"yesno"}
+{"id":"YN014","question":"Is penicillin effective against MRSA?","label":"yesno"}
+{"id":"YN015","question":"Does fluoxetine interact with MAO inhibitors?","label":"yesno"}
+{"id":"YN016","question":"Is epinephrine used in anaphylaxis?","label":"yesno"}
+{"id":"YN017","question":"Does gentamicin cause ototoxicity?","label":"yesno"}
+{"id":"YN018","question":"Is rivaroxaban a direct factor Xa inhibitor?","label":"yesno"}
+{"id":"YN019","question":"Does morphine cause respiratory depression?","label":"yesno"}
+{"id":"YN020","question":"Is metoprolol a beta blocker?","label":"yesno"}
+{"id":"YN021","question":"Does isotretinoin require pregnancy prevention measures?","label":"yesno"}
+{"id":"YN022","question":"Is azithromycin a macrolide antibiotic?","label":"yesno"}
+{"id":"YN023","question":"Does hydrochlorothiazide cause hypokalemia?","label":"yesno"}
+{"id":"YN024","question":"Is vancomycin active against Clostridioides difficile orally?","label":"yesno"}
+{"id":"YN025","question":"Does nitroglycerin relieve angina by vasodilation?","label":"yesno"}
+{"id":"YN026","question":"Is naloxone an opioid antagonist?","label":"yesno"}
+{"id":"YN027","question":"Does metoclopramide cause tardive dyskinesia?","label":"yesno"}
+{"id":"YN028","question":"Is diazepam a benzodiazepine?","label":"yesno"}
+{"id":"YN029","question":"Does digoxin have a narrow therapeutic index?","label":"yesno"}
+{"id":"YN030","question":"Is ceftriaxone a third-generation cephalosporin?","label":"yesno"}
+{"id":"YN031","question":"Does losartan block the angiotensin II receptor?","label":"yesno"}
+{"id":"YN032","question":"Is clozapine associated with agranulocytosis?","label":"yesno"}
+{"id":"YN033","question":"Does levothyroxine treat hypothyroidism?","label":"yesno"}
+{"id":"YN034","question":"Is ketamine an NMDA receptor antagonist?","label":"yesno"}
+{"id":"YN035","question":"Does spironolactone cause hyperkalemia?","label":"yesno"}
+{"id":"YN036","question":"Is vancomycin nephrotoxic?","label":"yesno"}
+{"id":"YN037","question":"Does propranolol worsen asthma symptoms?","label":"yesno"}
+{"id":"YN038","question":"Is pregabalin used for neuropathic pain?","label":"yesno"}
+{"id":"YN039","question":"Does amiodarone cause thyroid dysfunction?","label":"yesno"}
+{"id":"YN040","question":"Is clindamycin associated with C. difficile infection?","label":"yesno"}
+{"id":"YN041","question":"Does tramadol lower the seizure threshold?","label":"yesno"}
+{"id":"YN042","question":"Is cefazolin suitable for surgical prophylaxis?","label":"yesno"}
+{"id":"YN043","question":"Does linezolid interact with serotonergic drugs?","label":"yesno"}
+{"id":"YN044","question":"Is methotrexate teratogenic?","label":"yesno"}
+{"id":"YN045","question":"Does atenolol reduce heart rate?","label":"yesno"}
+{"id":"YN046","question":"Is lithium associated with nephrogenic diabetes insipidus?","label":"yesno"}
+{"id":"YN047","question":"Does lamotrigine cause rash?","label":"yesno"}
+{"id":"YN048","question":"Is albuterol a short-acting beta agonist?","label":"yesno"}
+{"id":"YN049","question":"Does acetazolamide cause metabolic acidosis?","label":"yesno"}
+{"id":"YN050","question":"Is clopidogrel a P2Y12 inhibitor?","label":"yesno"}
+{"id":"YN051","question":"Does sulfonamide use cause hypersensitivity reactions?","label":"yesno"}
+{"id":"YN052","question":"Is amoxicillin safe in pregnancy?","label":"yesno"}
+{"id":"YN053","question":"Does rifampin induce cytochrome P450 enzymes?","label":"yesno"}
+{"id":"YN054","question":"Is vancomycin active against gram-negative bacteria?","label":"yesno"}
+{"id":"YN055","question":"Does atorvastatin reduce LDL cholesterol?","label":"yesno"}
+{"id":"YN056","question":"Is furosemide a loop diuretic?","label":"yesno"}
+{"id":"YN057","question":"Does hydrochlorothiazide increase uric acid levels?","label":"yesno"}
+{"id":"YN058","question":"Is phenylephrine an alpha-1 agonist?","label":"yesno"}
+{"id":"YN059","question":"Does gabapentin cause sedation?","label":"yesno"}
+{"id":"YN060","question":"Is cefepime effective for Pseudomonas aeruginosa?","label":"yesno"}
+{"id":"YN061","question":"Does metformin cause weight loss in some patients?","label":"yesno"}
+{"id":"YN062","question":"Is warfarin affected by vitamin K intake?","label":"yesno"}
+{"id":"YN063","question":"Does erythromycin prolong the QT interval?","label":"yesno"}
+{"id":"YN064","question":"Is hydroxychloroquine associated with retinal toxicity?","label":"yesno"}
+{"id":"YN065","question":"Does valproate cause neural tube defects in pregnancy?","label":"yesno"}
+{"id":"YN066","question":"Is cefuroxime a second-generation cephalosporin?","label":"yesno"}
+{"id":"YN067","question":"Does amitriptyline cause anticholinergic side effects?","label":"yesno"}
+{"id":"YN068","question":"Is nitrofurantoin used for uncomplicated cystitis?","label":"yesno"}
+{"id":"YN069","question":"Does enalapril reduce proteinuria in CKD?","label":"yesno"}
+{"id":"YN070","question":"Is azathioprine an immunosuppressant?","label":"yesno"}
+{"id":"YN071","question":"Does ketorolac increase bleeding risk postoperatively?","label":"yesno"}
+{"id":"YN072","question":"Is amphotericin B nephrotoxic?","label":"yesno"}
+{"id":"YN073","question":"Does aspirin irreversibly inhibit platelets?","label":"yesno"}
+{"id":"YN074","question":"Is cefdinir a cephalosporin antibiotic?","label":"yesno"}
+{"id":"YN075","question":"Does metoprolol cross the blood–brain barrier?","label":"yesno"}
+{"id":"YN076","question":"Is daptomycin inactivated by pulmonary surfactant?","label":"yesno"}
+{"id":"YN077","question":"Does clozapine require ANC monitoring?","label":"yesno"}
+{"id":"YN078","question":"Is tenofovir associated with renal toxicity?","label":"yesno"}
+{"id":"YN079","question":"Does vancomycin require trough monitoring?","label":"yesno"}
+{"id":"YN080","question":"Is cephalexin effective for skin infections?","label":"yesno"}
+{"id":"YN081","question":"Does phenytoin induce hepatic enzymes?","label":"yesno"}
+{"id":"YN082","question":"Is meropenem a carbapenem antibiotic?","label":"yesno"}
+{"id":"YN083","question":"Does quinidine prolong the QT interval?","label":"yesno"}
+{"id":"YN084","question":"Is ciprofloxacin associated with tendon rupture?","label":"yesno"}
+{"id":"YN085","question":"Does losartan cause hyperkalemia?","label":"yesno"}
+{"id":"YN086","question":"Is naloxone effective in opioid overdose?","label":"yesno"}
+{"id":"YN087","question":"Does sertraline inhibit serotonin reuptake?","label":"yesno"}
+{"id":"YN088","question":"Is methimazole used for hyperthyroidism?","label":"yesno"}
+{"id":"YN089","question":"Does hydralazine cause reflex tachycardia?","label":"yesno"}
+{"id":"YN090","question":"Is cefotaxime a third-generation cephalosporin?","label":"yesno"}
+{"id":"YN091","question":"Does clindamycin have anaerobic coverage?","label":"yesno"}
+{"id":"YN092","question":"Is infliximab a monoclonal antibody?","label":"yesno"}
+{"id":"YN093","question":"Does amlodipine cause peripheral edema?","label":"yesno"}
+{"id":"YN094","question":"Is bupropion contraindicated in seizure disorders?","label":"yesno"}
+{"id":"YN095","question":"Does vancomycin cover Enterococcus faecalis?","label":"yesno"}
+{"id":"YN096","question":"Is tamsulosin an alpha-1A antagonist?","label":"yesno"}
+{"id":"YN097","question":"Does prednisone cause hyperglycemia?","label":"yesno"}
+{"id":"YN098","question":"Is sucralfate used for peptic ulcer disease?","label":"yesno"}
+{"id":"YN099","question":"Does erythropoietin increase hemoglobin levels?","label":"yesno"}
+{"id":"YN100","question":"Is clopidogrel a prodrug requiring activation?","label":"yesno"}
+{"id":"F001","question":"What is the mechanism of action of metformin?","label":"factoid"}
+{"id":"F002","question":"What enzyme metabolizes clopidogrel to its active form?","label":"factoid"}
+{"id":"F003","question":"What is the primary clinical indication for amlodipine?","label":"factoid"}
+{"id":"F004","question":"What is the therapeutic class of atorvastatin?","label":"factoid"}
+{"id":"F005","question":"What is the half-life of warfarin?","label":"factoid"}
+{"id":"F006","question":"What receptor does fentanyl primarily act on?","label":"factoid"}
+{"id":"F007","question":"What is the main adverse effect associated with gentamicin?","label":"factoid"}
+{"id":"F008","question":"What is the antidote for benzodiazepine overdose?","label":"factoid"}
+{"id":"F009","question":"What is the target INR range for most patients on warfarin?","label":"factoid"}
+{"id":"F010","question":"What is the mechanism by which omeprazole reduces gastric acid?","label":"factoid"}
+{"id":"F011","question":"What transporter does metformin use for hepatic uptake?","label":"factoid"}
+{"id":"F012","question":"What is the black box warning for clozapine?","label":"factoid"}
+{"id":"F013","question":"What is the preferred treatment for methicillin-resistant Staphylococcus aureus bacteremia?","label":"factoid"}
+{"id":"F014","question":"What cytochrome P450 isoenzyme is strongly inhibited by ketoconazole?","label":"factoid"}
+{"id":"F015","question":"What is the primary indication for levothyroxine?","label":"factoid"}
+{"id":"F016","question":"What adverse event is most associated with isotretinoin?","label":"factoid"}
+{"id":"F017","question":"What is the therapeutic class of losartan?","label":"factoid"}
+{"id":"F018","question":"What is the mechanism of action of ticagrelor?","label":"factoid"}
+{"id":"F019","question":"What laboratory parameter should be monitored with vancomycin therapy?","label":"factoid"}
+{"id":"F020","question":"What is the first-line therapy for status epilepticus?","label":"factoid"}
+{"id":"F021","question":"What receptor subtype does albuterol target?","label":"factoid"}
+{"id":"F022","question":"What is the mechanism of action of rivaroxaban?","label":"factoid"}
+{"id":"F023","question":"What adverse effect is commonly associated with amiodarone?","label":"factoid"}
+{"id":"F024","question":"What bacterial ribosomal subunit is inhibited by doxycycline?","label":"factoid"}
+{"id":"F025","question":"What is the mechanism of action of vancomycin?","label":"factoid"}
+{"id":"F026","question":"What is the preferred test to monitor unfractionated heparin therapy?","label":"factoid"}
+{"id":"F027","question":"What gene variant affects abacavir hypersensitivity?","label":"factoid"}
+{"id":"F028","question":"What is the mechanism of action of sacubitril?","label":"factoid"}
+{"id":"F029","question":"What is the clinical indication for tamsulosin?","label":"factoid"}
+{"id":"F030","question":"What is the primary mechanism by which aspirin inhibits platelet function?","label":"factoid"}
+{"id":"F031","question":"What is the pharmacologic class of quetiapine?","label":"factoid"}
+{"id":"F032","question":"What is the mechanism of action of cephalosporins?","label":"factoid"}
+{"id":"F033","question":"What is the therapeutic target of trastuzumab?","label":"factoid"}
+{"id":"F034","question":"What is the mechanism of action of sucralfate?","label":"factoid"}
+{"id":"F035","question":"What organ toxicity is associated with acetaminophen overdose?","label":"factoid"}
+{"id":"F036","question":"What is the mechanism of action of sildenafil?","label":"factoid"}
+{"id":"F037","question":"What adverse effect is linked to ACE inhibitors?","label":"factoid"}
+{"id":"F038","question":"What organism is typically covered by metronidazole?","label":"factoid"}
+{"id":"F039","question":"What is the main adverse effect of amphotericin B?","label":"factoid"}
+{"id":"F040","question":"What is the mechanism of action of clindamycin?","label":"factoid"}
+{"id":"F041","question":"What enzyme converts codeine to morphine?","label":"factoid"}
+{"id":"F042","question":"What is the antidote for methotrexate toxicity?","label":"factoid"}
+{"id":"F043","question":"What clinical parameter is used to titrate insulin therapy?","label":"factoid"}
+{"id":"F044","question":"What is the mechanism of action of carbamazepine?","label":"factoid"}
+{"id":"F045","question":"What drug class does sertraline belong to?","label":"factoid"}
+{"id":"F046","question":"What is the major adverse effect of isoniazid related to nerves?","label":"factoid"}
+{"id":"F047","question":"What is the mechanism of action of oseltamivir?","label":"factoid"}
+{"id":"F048","question":"What is the typical adverse effect of spironolactone on electrolytes?","label":"factoid"}
+{"id":"F049","question":"What is the mechanism of action of glucocorticoids?","label":"factoid"}
+{"id":"F050","question":"What is the primary indication for levodopa?","label":"factoid"}
+{"id":"F051","question":"What is the mechanism of action of benzodiazepines?","label":"factoid"}
+{"id":"F052","question":"What is the clinical use of naloxone?","label":"factoid"}
+{"id":"F053","question":"What is the primary therapeutic target of imatinib?","label":"factoid"}
+{"id":"F054","question":"What is the mechanism of action of fluoroquinolones?","label":"factoid"}
+{"id":"F055","question":"What adverse effect is commonly linked to clindamycin?","label":"factoid"}
+{"id":"F056","question":"What is the mechanism of action of digoxin?","label":"factoid"}
+{"id":"F057","question":"What is the therapeutic class of furosemide?","label":"factoid"}
+{"id":"F058","question":"What is the recommended initial treatment for anaphylaxis?","label":"factoid"}
+{"id":"F059","question":"What is the mechanism of action of methotrexate?","label":"factoid"}
+{"id":"F060","question":"What is the primary indication for tPA in stroke management?","label":"factoid"}
+{"id":"F061","question":"What receptor does morphine primarily activate?","label":"factoid"}
+{"id":"F062","question":"What is the mechanism of action of ketamine?","label":"factoid"}
+{"id":"F063","question":"What enzyme is inhibited by statins?","label":"factoid"}
+{"id":"F064","question":"What is the main adverse effect of vancomycin requiring monitoring?","label":"factoid"}
+{"id":"F065","question":"What is the mechanism of action of proton pump inhibitors?","label":"factoid"}
+{"id":"F066","question":"What is the mechanism of action of linezolid?","label":"factoid"}
+{"id":"F067","question":"What is the primary indication for metoprolol?","label":"factoid"}
+{"id":"F068","question":"What is the mechanism of action of ACE inhibitors?","label":"factoid"}
+{"id":"F069","question":"What is the therapeutic target of pembrolizumab?","label":"factoid"}
+{"id":"F070","question":"What is the mechanism of action of clopidogrel?","label":"factoid"}
+{"id":"F071","question":"What is the main adverse effect of valproate during pregnancy?","label":"factoid"}
+{"id":"F072","question":"What is the mechanism of action of acyclovir?","label":"factoid"}
+{"id":"F073","question":"What receptor does ondansetron antagonize?","label":"factoid"}
+{"id":"F074","question":"What is the mechanism of action of bupropion?","label":"factoid"}
+{"id":"F075","question":"What is the target pathogen for oseltamivir?","label":"factoid"}
+{"id":"F076","question":"What is the therapeutic class of ceftriaxone?","label":"factoid"}
+{"id":"F077","question":"What is the mechanism of action of spironolactone?","label":"factoid"}
+{"id":"F078","question":"What is the first-line treatment for acute gout?","label":"factoid"}
+{"id":"F079","question":"What is the mechanism of action of tamoxifen?","label":"factoid"}
+{"id":"F080","question":"What is the primary indication for amiodarone?","label":"factoid"}
+{"id":"F081","question":"What is the mechanism of action of azithromycin?","label":"factoid"}
+{"id":"F082","question":"What is the main adverse effect associated with aminoglycosides?","label":"factoid"}
+{"id":"F083","question":"What receptor does loratadine target?","label":"factoid"}
+{"id":"F084","question":"What is the mechanism of action of tramadol?","label":"factoid"}
+{"id":"F085","question":"What enzyme is inhibited by allopurinol?","label":"factoid"}
+{"id":"F086","question":"What is the mechanism of action of fluconazole?","label":"factoid"}
+{"id":"F087","question":"What is the primary indication for clopidogrel?","label":"factoid"}
+{"id":"F088","question":"What is the mechanism of action of nitroglycerin?","label":"factoid"}
+{"id":"F089","question":"What is the primary indication for duloxetine?","label":"factoid"}
+{"id":"F090","question":"What is the mechanism of action of apixaban?","label":"factoid"}
+{"id":"F091","question":"What is the therapeutic target of bevacizumab?","label":"factoid"}
+{"id":"F092","question":"What is the mechanism of action of ondansetron?","label":"factoid"}
+{"id":"F093","question":"What is the primary adverse effect of isotretinoin requiring monitoring?","label":"factoid"}
+{"id":"F094","question":"What is the mechanism of action of cefepime?","label":"factoid"}
+{"id":"F095","question":"What is the clinical indication for metronidazole?","label":"factoid"}
+{"id":"F096","question":"What is the mechanism of action of pregabalin?","label":"factoid"}
+{"id":"F097","question":"What is the therapeutic class of lisinopril?","label":"factoid"}
+{"id":"F098","question":"What is the mechanism of action of penicillin antibiotics?","label":"factoid"}
+{"id":"F099","question":"What receptor does haloperidol primarily antagonize?","label":"factoid"}
+{"id":"F100","question":"What is the mechanism of action of clozapine?","label":"factoid"}
+{"id":"MH001","question":"Which drugs that interact with warfarin also increase bleeding risk?","label":"list"}
+{"id":"MH002","question":"Which antibiotics that inhibit CYP3A4 interact with statins associated with myopathy?","label":"list"}
+{"id":"MH003","question":"Which antiepileptics that induce CYP3A4 reduce the efficacy of oral contraceptives?","label":"list"}
+{"id":"MH004","question":"Which drugs that treat hypertension also prolong the QT interval?","label":"list"}
+{"id":"MH005","question":"Which antidepressants that inhibit CYP2D6 interact with beta blockers causing bradycardia?","label":"list"}
+{"id":"MH006","question":"Which drugs that interact with lithium also increase the risk of nephrotoxicity?","label":"list"}
+{"id":"MH007","question":"Which antiretrovirals that are boosted by ritonavir interact with anticoagulants?","label":"list"}
+{"id":"MH008","question":"Which NSAIDs that interact with ACE inhibitors also worsen kidney function?","label":"list"}
+{"id":"MH009","question":"Which antifungals that inhibit CYP3A4 interact with calcineurin inhibitors causing toxicity?","label":"list"}
+{"id":"MH010","question":"Which proton pump inhibitors that reduce clopidogrel activation interact with P2Y12 inhibitors?","label":"list"}
+{"id":"MH011","question":"Which drugs that treat diabetes interact with fluoroquinolones and affect glycemic control?","label":"list"}
+{"id":"MH012","question":"Which antibiotics that interact with methotrexate increase the risk of myelosuppression?","label":"list"}
+{"id":"MH013","question":"Which antipsychotics that are metabolized by CYP3A4 interact with macrolides leading to QT prolongation?","label":"list"}
+{"id":"MH014","question":"Which antivirals that induce CYP enzymes reduce the efficacy of direct-acting oral anticoagulants?","label":"list"}
+{"id":"MH015","question":"Which statins that are substrates of CYP3A4 interact with grapefruit juice and cause rhabdomyolysis?","label":"list"}
+{"id":"MH016","question":"Which antimicrobials that inhibit MAO interact with SSRIs and increase serotonin syndrome risk?","label":"list"}
+{"id":"MH017","question":"Which antiplatelet agents that interact with SSRIs increase bleeding complications?","label":"list"}
+{"id":"MH018","question":"Which chemotherapeutics that are P-gp substrates interact with azoles increasing toxicity?","label":"list"}
+{"id":"MH019","question":"Which antitubercular drugs that induce enzymes reduce the levels of antiretrovirals?","label":"list"}
+{"id":"MH020","question":"Which drugs that treat heart failure interact with NSAIDs and worsen renal function?","label":"list"}
+{"id":"MH021","question":"Which opioids that are metabolized by CYP2D6 interact with strong inhibitors and reduce analgesia?","label":"list"}
+{"id":"MH022","question":"Which beta blockers that interact with calcium channel blockers cause heart block?","label":"list"}
+{"id":"MH023","question":"Which antineoplastics that inhibit CYP3A4 interact with immunosuppressants causing nephrotoxicity?","label":"list"}
+{"id":"MH024","question":"Which anticoagulants that are CYP3A4 substrates interact with azoles increasing bleeding?","label":"list"}
+{"id":"MH025","question":"Which antihypertensives that interact with potassium-sparing diuretics cause hyperkalemia?","label":"list"}
+{"id":"MH026","question":"Which antibiotics that interact with warfarin increase INR instability?","label":"list"}
+{"id":"MH027","question":"Which antidiabetics that interact with beta blockers mask hypoglycemia symptoms?","label":"list"}
+{"id":"MH028","question":"Which antipsychotics that interact with fluoroquinolones increase QT prolongation risk?","label":"list"}
+{"id":"MH029","question":"Which antifungals that interact with tacrolimus increase nephrotoxicity?","label":"list"}
+{"id":"MH030","question":"Which antidepressants that interact with tramadol increase seizure risk?","label":"list"}
+{"id":"MH031","question":"Which antiplatelet drugs that interact with PPIs reduce antithrombotic effect?","label":"list"}
+{"id":"MH032","question":"Which bronchodilators that interact with nonselective beta blockers worsen asthma control?","label":"list"}
+{"id":"MH033","question":"Which antineoplastics that interact with St. John’s wort lose therapeutic efficacy?","label":"list"}
+{"id":"MH034","question":"Which antivirals that interact with statins increase myopathy risk?","label":"list"}
+{"id":"MH035","question":"Which antiepileptics that induce enzymes interact with direct oral anticoagulants reducing levels?","label":"list"}
+{"id":"MH036","question":"Which antibiotics that chelate with cations interact with iron supplements and reduce absorption?","label":"list"}
+{"id":"MH037","question":"Which antimicrobials that prolong QT interact with methadone and increase arrhythmia risk?","label":"list"}
+{"id":"MH038","question":"Which immunosuppressants that are CYP3A4 substrates interact with macrolides causing toxicity?","label":"list"}
+{"id":"MH039","question":"Which thyroid medications that interact with warfarin increase bleeding tendency?","label":"list"}
+{"id":"MH040","question":"Which lipid-lowering agents that interact with gemfibrozil increase rhabdomyolysis risk?","label":"list"}
+{"id":"MH041","question":"Which sedatives that interact with opioids increase respiratory depression?","label":"list"}
+{"id":"MH042","question":"Which antiemetics that block 5-HT3 interact with serotonergic drugs causing serotonin syndrome?","label":"list"}
+{"id":"MH043","question":"Which antibiotics that inhibit CYP1A2 interact with theophylline causing toxicity?","label":"list"}
+{"id":"MH044","question":"Which antipsychotics that interact with CYP2D6 inhibitors increase extrapyramidal symptoms?","label":"list"}
+{"id":"MH045","question":"Which antimalarials that interact with QT-prolonging drugs raise torsades risk?","label":"list"}
+{"id":"MH046","question":"Which antiretrovirals that inhibit CYP3A4 interact with oral contraceptives altering efficacy?","label":"list"}
+{"id":"MH047","question":"Which antihypertensives that interact with NSAIDs reduce antihypertensive effect?","label":"list"}
+{"id":"MH048","question":"Which antibiotics that interact with digoxin increase digoxin toxicity?","label":"list"}
+{"id":"MH049","question":"Which antiplatelet agents that interact with SSRIs increase gastrointestinal bleeding?","label":"list"}
+{"id":"MH050","question":"Which antineoplastics that interact with QT-prolonging agents increase arrhythmia risk?","label":"list"}
+{"id":"MH051","question":"Which antacids that interact with fluoroquinolones reduce antibiotic absorption?","label":"list"}
+{"id":"MH052","question":"Which anticonvulsants that induce CYP enzymes interact with hormonal therapies reducing efficacy?","label":"list"}
+{"id":"MH053","question":"Which antibiotics that interact with statins increase rhabdomyolysis risk?","label":"list"}
+{"id":"MH054","question":"Which antidepressants that interact with NSAIDs increase bleeding risk?","label":"list"}
+{"id":"MH055","question":"Which antithyroid drugs that interact with warfarin alter anticoagulation control?","label":"list"}
+{"id":"MH056","question":"Which antipsychotics that interact with CYP3A4 inhibitors cause elevated serum levels?","label":"list"}
+{"id":"MH057","question":"Which antihistamines that interact with macrolides increase QT prolongation?","label":"list"}
+{"id":"MH058","question":"Which antidiabetic drugs that interact with fluoroquinolones cause hypoglycemia?","label":"list"}
+{"id":"MH059","question":"Which antifungals that interact with colchicine increase toxicity risk?","label":"list"}
+{"id":"MH060","question":"Which calcium channel blockers that interact with beta blockers cause AV block?","label":"list"}
+{"id":"MH061","question":"Which PPIs that interact with methotrexate increase methotrexate toxicity?","label":"list"}
+{"id":"MH062","question":"Which antivirals that interact with antacids reduce antiviral absorption?","label":"list"}
+{"id":"MH063","question":"Which antibiotics that interact with oral anticoagulants increase bleeding risk?","label":"list"}
+{"id":"MH064","question":"Which antiepileptics that interact with warfarin alter INR control?","label":"list"}
+{"id":"MH065","question":"Which smoking-cessation drugs that interact with MAO inhibitors increase hypertensive crises?","label":"list"}
+{"id":"MH066","question":"Which corticosteroids that interact with CYP3A4 inhibitors cause Cushingoid effects?","label":"list"}
+{"id":"MH067","question":"Which antihyperglycemics that interact with beta blockers mask adrenergic hypoglycemia signs?","label":"list"}
+{"id":"MH068","question":"Which QT-prolonging antibiotics that interact with antipsychotics increase torsades risk?","label":"list"}
+{"id":"MH069","question":"Which diuretics that interact with ACE inhibitors cause severe hyperkalemia?","label":"list"}
+{"id":"MH070","question":"Which migraine therapies that interact with SSRIs increase serotonin syndrome risk?","label":"list"}
+{"id":"MH071","question":"Which antineoplastics that interact with strong CYP inducers lose therapeutic effect?","label":"list"}
+{"id":"MH072","question":"Which immunotherapies that interact with corticosteroids reduce treatment response?","label":"list"}
+{"id":"MH073","question":"Which antipsychotics that interact with fluvoxamine increase serum concentrations?","label":"list"}
+{"id":"MH074","question":"Which antibiotics that interact with valproate increase hepatotoxicity risk?","label":"list"}
+{"id":"MH075","question":"Which SGLT2 inhibitors that interact with diuretics increase dehydration risk?","label":"list"}
+{"id":"MH076","question":"Which anticoagulants that interact with amiodarone increase bleeding risk?","label":"list"}
+{"id":"MH077","question":"Which macrolides that interact with calcium channel blockers cause hypotension?","label":"list"}
+{"id":"MH078","question":"Which antifungals that interact with DOACs increase anticoagulant effect?","label":"list"}
+{"id":"MH079","question":"Which anticonvulsants that interact with lamotrigine alter lamotrigine levels and rash risk?","label":"list"}
+{"id":"MH080","question":"Which statins that interact with clarithromycin increase myopathy risk?","label":"list"}
+{"id":"MH081","question":"Which antidepressants that interact with linezolid cause serotonin toxicity?","label":"list"}
+{"id":"MH082","question":"Which antineoplastics that interact with azoles require dose reduction due to toxicity?","label":"list"}
+{"id":"MH083","question":"Which antihypertensives that interact with lithium increase lithium toxicity?","label":"list"}
+{"id":"MH084","question":"Which antibiotics that interact with cyclosporine increase nephrotoxicity?","label":"list"}
+{"id":"MH085","question":"Which antiplatelet therapies that interact with anticoagulants excessively increase bleeding?","label":"list"}
+{"id":"MH086","question":"Which antidepressants that interact with tramadol increase serotonin syndrome risk?","label":"list"}
+{"id":"MH087","question":"Which antipsychotics that interact with ciprofloxacin increase QT prolongation?","label":"list"}
+{"id":"MH088","question":"Which antiretrovirals that interact with PPIs reduce drug absorption and efficacy?","label":"list"}
+{"id":"MH089","question":"Which opioid analgesics that interact with benzodiazepines heighten respiratory depression?","label":"list"}
+{"id":"MH090","question":"Which antidiabetic agents that interact with steroids worsen hyperglycemia?","label":"list"}
+{"id":"MH091","question":"Which chemotherapies that interact with phenytoin reduce seizure control?","label":"list"}
+{"id":"MH092","question":"Which antithrombotics that interact with SSRIs increase major bleeding risk?","label":"list"}
+{"id":"MH093","question":"Which antipsychotics that interact with fluconazole require dose reduction?","label":"list"}
+{"id":"MH094","question":"Which antibiotics that interact with methadone increase arrhythmia risk?","label":"list"}
+{"id":"MH095","question":"Which antiarrhythmics that interact with CYP3A4 inhibitors require dose adjustments?","label":"list"}
+{"id":"MH096","question":"Which antihistamines that interact with azoles increase torsades risk?","label":"list"}
+{"id":"MH097","question":"Which ocular beta blockers that interact with systemic beta blockers cause bradycardia?","label":"list"}
+{"id":"MH098","question":"Which antineoplastics that interact with PPIs reduce oral absorption?","label":"list"}
+{"id":"MH099","question":"Which antiplatelet agents that interact with CYP2C19 inhibitors lose efficacy?","label":"list"}
+{"id":"MH100","question":"Which immunosuppressants that interact with clarithromycin increase nephrotoxicity and require monitoring?","label":"list"}
+
+

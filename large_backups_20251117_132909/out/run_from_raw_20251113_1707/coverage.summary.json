@@ -1,0 +1,5 @@
+[text coverage summary] queries=0
+  @k=10: complete=0 (0.0%)  partial=0  zero=0
+  @k=20: complete=0 (0.0%)  partial=0  zero=0
+  @k=50: complete=0 (0.0%)  partial=0  zero=0
+  @k=80: complete=0 (0.0%)  partial=0  zero=0

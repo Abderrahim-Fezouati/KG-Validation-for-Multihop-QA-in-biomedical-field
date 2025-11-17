@@ -1,0 +1,320 @@
+================================================================================
+Query 1: What adverse effects are associated with adalimumab?
+text_topk: 80 results; top1=(PMID:30773522, 20.704195659820996)
+kg_verdicts: [{'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_immunologic_activity_alteration'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_psoriasis'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_thrombocytopenia'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_hidradenitis_suppurativa'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_interstitial_lung_disease'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_autoimmune_hepatitis'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_lupus_erythematosus'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 2: Does adalimumab interact with afelimomab?
+text_topk: 80 results; top1=(PMID:30773522, 20.704195659820996)
+kg_verdicts: [{'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_tumor_necrosis_factors'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_cytokines'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_denosumab'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_etanercept'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2a'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n1'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n3'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2b'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 3: What adverse effects are commonly reported with pembrolizumab?
+text_topk: 80 results; top1=(PMID:38717744, 26.797361708980457)
+kg_verdicts: [{'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_sclerosing_cholangitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_colitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_toxic_epidermal_necrolysis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_gastritis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_guillain_barre_syndrome'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hepatitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hypothyroidism'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hemophagocytic_syndrome'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 4: Is tacrolimus linked to nephrotoxicity as an adverse effect?
+text_topk: 80 results; top1=(PMID:10080403, 30.338016239186533)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 5: What adverse effects are associated with valproate therapy?
+text_topk: 80 results; top1=(PMID:14596082, 17.159864902393036)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 6: Does digoxin have clinically significant adverse effects that require monitoring?
+text_topk: 80 results; top1=(PMID:9743167, 23.587722709340582)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 7: What adverse effects are documented for antigens in immunization contexts?
+text_topk: 80 results; top1=(PMID:30345314, 22.72312914826845)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 8: What adverse effects are documented for autoantigens in autoimmune responses?
+text_topk: 80 results; top1=(PMID:20010465, 16.015730844755623)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 9: What adverse effects are associated with carcinogens exposure?
+text_topk: 80 results; top1=(PMID:39515540, 19.782558144352098)
+kg_verdicts: [{'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_carcinogen_effect_in_offspring'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_adenocarcinoma'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_adenoma'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_aneuploidy'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_urinary_bladder_cancer'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_urinary_bladder_neoplasm'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_brain_neoplasm'), 'present': True}, {'edge': ('drug_carcinogens', 'ADVERSE_EFFECT', 'disease_breast_cancer'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 10: What adverse effects are reported with pegylated liposomal irinotecan?
+text_topk: 80 results; top1=(PMID:24874704, 21.973217169198726)
+kg_verdicts: [{'edge': ('drug_pegylated_liposomal_irinotecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 11: What adverse effects are linked to tenifatecan therapy?
+text_topk: 80 results; top1=(PMID:14596082, 17.65957129267749)
+kg_verdicts: [{'edge': ('drug_tenifatecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 12: What adverse effects are associated with polyethyleneglycol 7-ethyl-10-hydroxycamptothecin (DFP-13318)?
+text_topk: 80 results; top1=(PMID:39307144, 17.736608312168865)
+kg_verdicts: [{'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_benign_prostatic_hyperplasia'), 'present': True}, {'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_poisoning'), 'present': True}, {'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_cytotoxicity'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 13: What adverse effects are reported for firtecan pegol?
+text_topk: 80 results; top1=(PMID:14596082, 15.473977525844047)
+kg_verdicts: [{'edge': ('drug_firtecan_pegol', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 14: What adverse effects occur with oral irinotecan hydrochloride formulation VAL-413?
+text_topk: 80 results; top1=(PMID:24445002, 22.316008774920945)
+kg_verdicts: [{'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_hypertensive_disorder'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_parkinson_disease'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_gastric_ulcer'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_traumatic_injury'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_injury_of_stomach'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_cytotoxicity'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_lesion_of_stomach'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 15: Is adalimumab associated with injection-site reactions as an adverse effect?
+text_topk: 80 results; top1=(PMID:40392910, 25.68654371518711)
+kg_verdicts: [{'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_immunologic_activity_alteration'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_psoriasis'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_thrombocytopenia'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_hidradenitis_suppurativa'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_interstitial_lung_disease'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_autoimmune_hepatitis'), 'present': True}, {'edge': ('drug_adalimumab', 'ADVERSE_EFFECT', 'disease_lupus_erythematosus'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 16: What adverse effects are typical for tacrolimus in transplant recipients?
+text_topk: 80 results; top1=(PMID:15482385, 35.28548747282709)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 17: Does pembrolizumab increase the risk of immune-related adverse events?
+text_topk: 80 results; top1=(PMID:38717744, 40.25334274310045)
+kg_verdicts: [{'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_sclerosing_cholangitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_colitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_toxic_epidermal_necrolysis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_gastritis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_guillain_barre_syndrome'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hepatitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hypothyroidism'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hemophagocytic_syndrome'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 18: Is valproate associated with hepatotoxicity as an adverse effect?
+text_topk: 80 results; top1=(PMID:24842639, 22.865298333749436)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 19: Is digoxin associated with arrhythmias as an adverse effect?
+text_topk: 80 results; top1=(PMID:14982968, 19.531698678125235)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 20: Does adalimumab interact with infliximab if used sequentially or concurrently?
+text_topk: 80 results; top1=(PMID:30773522, 20.704195659820996)
+kg_verdicts: [{'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_tumor_necrosis_factors'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_cytokines'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_denosumab'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_etanercept'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2a'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n1'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_interferon_alfa_n3'), 'present': True}, {'edge': ('drug_adalimumab', 'INTERACTS_WITH', 'drug_peginterferon_alfa_2b'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 21: What adverse effects are associated with high cumulative exposure to tacrolimus?
+text_topk: 80 results; top1=(PMID:15482385, 24.11946941554024)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 22: Are immune tolerance phenomena considered adverse effects of antigen administration?
+text_topk: 80 results; top1=(PMID:24992613, 20.70328660451898)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 23: Is antibody-dependent enhancement considered an adverse effect related to antigens?
+text_topk: 80 results; top1=(PMID:39533217, 23.85014409187248)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 24: Are alloimmunization events documented as adverse effects of antigen exposure?
+text_topk: 80 results; top1=(PMID:9676174, 19.8854053076529)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 25: Are spontaneous abortions reported as adverse effects related to certain antigens?
+text_topk: 80 results; top1=(PMID:7859048, 21.53254477019204)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 26: Is demyelination reported as an adverse effect in autoantigen contexts?
+text_topk: 80 results; top1=(PMID:31250422, 15.252752785635861)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 27: Is autoimmune reaction documented as an adverse effect of autoantigen exposure?
+text_topk: 80 results; top1=(PMID:30345314, 24.89198139056975)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 28: Is rheumatoid arthritis reported as an adverse effect linked to autoantigens?
+text_topk: 80 results; top1=(PMID:39387403, 32.298809401693035)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 29: Is tissue damage recorded as an adverse effect after autoantigen stimulation?
+text_topk: 80 results; top1=(PMID:19262496, 19.278718020627583)
+kg_verdicts: [{'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_antibody_dependent_enhancement'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_alloimmunization'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_spontaneous_abortion'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_abscess'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_aids'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_obstructive_lung_disease'), 'present': True}, {'edge': ('drug_antigens', 'ADVERSE_EFFECT', 'disease_allergic_rhinitis'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 30: Is DNA strand break documented as an adverse effect of db-67 exposure?
+text_topk: 80 results; top1=(PMID:19150338, 22.374710813463732)
+kg_verdicts: [{'edge': ('drug_db_67', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 31: Is DNA strand break reported as an adverse effect of pegylated liposomal irinotecan?
+text_topk: 80 results; top1=(PMID:24874704, 22.25132264754771)
+kg_verdicts: [{'edge': ('drug_pegylated_liposomal_irinotecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 32: Is DNA strand break reported as an adverse effect of tenifatecan?
+text_topk: 80 results; top1=(PMID:12205919, 21.123413043594883)
+kg_verdicts: [{'edge': ('drug_tenifatecan', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 33: Is DNA strand break reported as an adverse effect of polyethyleneglycol 7-ethyl-10-hydroxycamptothecin (DFP-13318)?
+text_topk: 80 results; top1=(PMID:12205919, 23.99263157279619)
+kg_verdicts: [{'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_benign_prostatic_hyperplasia'), 'present': True}, {'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_poisoning'), 'present': True}, {'edge': ('drug_glycol', 'ADVERSE_EFFECT', 'disease_cytotoxicity'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 34: Is DNA strand break reported as an adverse effect of firtecan pegol?
+text_topk: 80 results; top1=(PMID:12205919, 21.123413043594883)
+kg_verdicts: [{'edge': ('drug_firtecan_pegol', 'ADVERSE_EFFECT', 'disease_dna_strand_break'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 35: Is DNA strand break reported as an adverse effect of oral irinotecan hydrochloride formulation VAL-413?
+text_topk: 80 results; top1=(PMID:24445002, 25.312620110639674)
+kg_verdicts: [{'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_hypertensive_disorder'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_parkinson_disease'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_gastric_ulcer'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_traumatic_injury'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_injury_of_stomach'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_cytotoxicity'), 'present': True}, {'edge': ('drug_hydrochloride', 'ADVERSE_EFFECT', 'disease_lesion_of_stomach'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 36: Does tacrolimus interact with cyclosporine in a clinically relevant way?
+text_topk: 80 results; top1=(PMID:24931259, 29.010566719591335)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 37: Does valproate interact with carbamazepine in clinical practice?
+text_topk: 80 results; top1=(PMID:1456863, 20.368572214351296)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 38: Does digoxin interact with amiodarone in a clinically significant way?
+text_topk: 80 results; top1=(PMID:7997394, 21.561009120191773)
+kg_verdicts: []
+coverage: 0.000
+decision: insufficient_text_support
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 39: Is angioedema an adverse effect associated with ACE inhibitor use?
+text_topk: 80 results; top1=(PMID:18988727, 37.71037173490758)
+kg_verdicts: [{'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_colitis'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_diabetes_mellitus'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_diabetic_ketoacidosis'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_dna_damage'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_exanthem'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_allergic_disease'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_immune_tolerance'), 'present': True}, {'edge': ('drug_inhibitor', 'ADVERSE_EFFECT', 'disease_acute_kidney_failure'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1
+================================================================================
+Query 40: Is pembrolizumab associated with pneumonitis as an adverse effect?
+text_topk: 80 results; top1=(PMID:38717744, 32.59474558420603)
+kg_verdicts: [{'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_sclerosing_cholangitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_colitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_toxic_epidermal_necrolysis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_gastritis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_guillain_barre_syndrome'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hepatitis'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hypothyroidism'), 'present': True}, {'edge': ('drug_pembrolizumab', 'ADVERSE_EFFECT', 'disease_hemophagocytic_syndrome'), 'present': True}]
+coverage: 1.000
+decision: supported
+text_entity_recall@80: 1.000
+hops: 1

@@ -1,0 +1,15 @@
+﻿"drug_tacrolimus","INTERACTS_WITH","drug_cyclosporine"
+"drug_valproate","INTERACTS_WITH","drug_carbamazepine"
+"drug_digoxin","INTERACTS_WITH","drug_amiodarone"
+"drug_adalimumab","INTERACTS_WITH","drug_infliximab"
+"drug_adalimumab","INTERACTS_WITH","drug_afelimomab"
+
+"drug_adalimumab","ADVERSE_EFFECT","disease_colitis"
+"drug_adalimumab","ADVERSE_EFFECT","disease_hepatitis"
+
+"drug_tacrolimus","ADVERSE_EFFECT","disease_acute_kidney_failure"
+
+"drug_valproate","ADVERSE_EFFECT","disease_hepatitis"
+
+"drug_digoxin","ADVERSE_EFFECT","disease_heart_failure"   # coarse but present in your KG
+"drug_digoxin","ADVERSE_EFFECT","disease_complication"     # coarse fallback

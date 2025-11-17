@@ -1,0 +1,130 @@
+﻿from __future__ import annotations
+from typing import List, Dict, Optional, Any, Tuple
+
+# --- Relation→expected types (head_types, tail_types) ---
+REL_TYPES = {
+    "INTERACTS_WITH":      (["drug","protein"], ["drug","protein"]),
+    "ADVERSE_EFFECT":      (["drug"], ["disease"]),
+    "CONTRAINDICATED_FOR": (["drug"], ["disease"]),
+    "MECHANISM_OF_ACTION": (["drug"], ["protein","gene"]),
+}
+
+def get_allowed_types(relation: str, slot: str):
+    rel = (relation or "").upper()
+    head_allowed, tail_allowed = REL_TYPES.get(
+        rel,
+        (["drug","disease","protein","gene","chemical"],)*2
+    )
+    return head_allowed if slot == "head" else tail_allowed
+
+class ELAdapter:
+    """
+    Unified entity-linking adapter that:
+      - routes expected_types by (relation, slot)
+      - supports both TypeAwareLinker (multi-bucket) and classic SapBERTLinker (single index)
+      - optionally context-reranks candidates
+    """
+
+    def __init__(self,
+                 linker: Any,
+                 reranker: Optional[Any] = None,
+                 default_topk: int = 8):
+        self.linker = linker
+        self.reranker = reranker
+        self.default_topk = default_topk
+
+    # ---- internal routing to the concrete linker API ----
+    def _routed_link(self, mention_text: str, relation: str, slot: str, topk: Optional[int] = None) -> List[Dict]:
+        types = get_allowed_types(relation, slot)
+        k = topk or self.default_topk
+
+        # Type-aware linkers usually expose link(mention, expected_types=[...], topk=K)
+        if hasattr(self.linker, "link"):
+            try:
+                return self.linker.link(mention_text, expected_types=types, topk=k)  # TypeAwareLinker
+            except TypeError:
+                # Classic SapBERTLinker.link(mention, topk) signature (no expected_types)
+                return self.linker.link(mention_text, topk=k)
+
+        # Alternative names (rare)
+        if hasattr(self.linker, "link_text"):
+            try:
+                return self.linker.link_text(mention_text, expected_types=types, topk=k)
+            except TypeError:
+                return self.linker.link_text(mention_text, topk=k)
+
+        if hasattr(self.linker, "link_mentions"):
+            # Some APIs accept list-of-mentions
+            try:
+                return self.linker.link_mentions([mention_text], expected_types=types, topk=k)[0]
+            except TypeError:
+                return self.linker.link_mentions([mention_text], topk=k)[0]
+
+        raise AttributeError("No compatible link(...) method found on linker")
+
+    # ---- public API ----
+    def link_mentions(self,
+                      question: str,
+                      mentions: List[str],
+                      relation: str,
+                      slot: str,
+                      topk: Optional[int] = None) -> List[List[Dict]]:
+        """
+        Link a batch of mention strings for a given (relation, slot) with optional
+        context-based reranking using the question.
+        """
+        out: List[List[Dict]] = []
+        for m in mentions:
+            cands = self._routed_link(m, relation, slot, topk=topk)
+            cands = self._normalize_candidates(cands)
+            if self.reranker:
+                cands = self.reranker.rerank(question, cands, topk=topk or self.default_topk)
+            cands = _apply_type_priority(cands, get_allowed_types(relation, slot)); out.append(cands[:(topk or self.default_topk)])
+        return out
+
+    def pick_best_cuis(self,
+                       question: str,
+                       mentions: List[str],
+                       relation: str,
+                       slot: str,
+                       topk: Optional[int] = None) -> List[str]:
+        """
+        Convenience: return only the best kg_id for each mention.
+        """
+        batched = self.link_mentions(question, mentions, relation, slot, topk=topk or self.default_topk)
+        best = []
+        for cands in batched:
+            best.append(cands[0]["kg_id"] if cands else None)
+        return [b for b in best if b]
+
+    # ---- utilities ----
+    def _normalize_candidates(self, cands: List[Dict]) -> List[Dict]:
+        """
+        Bring candidates into a single shape:
+          { kg_id, name, entity_type, score, ctx_score }
+        """
+        out = []
+        for c in cands or []:
+            # TypeAwareLinker fields
+            kg_id = c.get("kg_id") or c.get("cui")    # fallback for SapBERTLinker
+            name  = c.get("name") or c.get("text") or ""
+            etype = c.get("entity_type")
+            score = float(c.get("score", 0.0))
+            ctx   = float(c.get("ctx_score", 0.0))
+            out.append({"kg_id": kg_id, "name": name, "entity_type": etype, "score": score, "ctx_score": ctx})
+        # Sort by combined score (context first if present)
+        out.sort(key=lambda x: (x.get("ctx_score", 0.0), x.get("score", 0.0)), reverse=True)
+        return out
+
+
+
+
+
+# --- re-rank: expected entity types first; preserve original order within buckets
+def _apply_type_priority(cands, expected_types):
+    exp = set(expected_types or [])
+    good, rest = [], []
+    for c in (cands or []):
+        (good if c.get("entity_type") in exp else rest).append(c)
+    return good + rest
+

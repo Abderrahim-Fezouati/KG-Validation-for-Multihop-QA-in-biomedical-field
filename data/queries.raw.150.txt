@@ -1,0 +1,137 @@
+﻿What adverse effects are associated with antigens?
+What adverse effects are associated with autoantigens?
+What adverse effects are associated with carcinogens?
+What adverse effects are associated with db 67?
+What adverse effects are associated with pegylated liposomal irinotecan?
+What adverse effects are associated with tenifatecan?
+What adverse effects are associated with polyethyleneglycol 7 ethyl 10 hydroxycamptothecin dfp 13318?
+What adverse effects are associated with firtecan pegol?
+What adverse effects are associated with oral irinotecan hydrochloride formulation val 413?
+What adverse effects are associated with signaling molecule?
+What adverse effects are associated with human immunoglobulin g?
+What adverse effects are associated with etanercept?
+What adverse effects are associated with alefacept?
+What adverse effects are associated with adalimumab?
+What adverse effects are associated with certolizumab pegol?
+What adverse effects are associated with rilonacept?
+What adverse effects are associated with golimumab?
+What adverse effects are associated with muromonab cd3?
+What adverse effects are associated with siltuximab?
+What adverse effects are associated with belimumab?
+What adverse effects are associated with canakinumab?
+What adverse effects are associated with dupilumab?
+What adverse effects are associated with fish oil?
+What adverse effects are associated with pharmacologic substance?
+What adverse effects are associated with telomerase rna component?
+What adverse effects are associated with glucocorticoid?
+What adverse effects are associated with isocyanates?
+What adverse effects are associated with sulfonamide?
+What adverse effects are associated with beta lactam?
+What adverse effects are associated with 5 nucleotidase?
+What adverse effects are associated with acetylaminofluorene?
+What adverse effects are associated with acetylcholinesterase?
+Does aldesleukin interact with receptors interleukin 2?
+Does alemtuzumab interact with cd52 protein human?
+Does atezolizumab interact with cd274 protein human?
+Does neutral protamine hagedorn nph insulin interact with insr protein human?
+Does db 67 interact with top1 protein human?
+Does pegylated liposomal irinotecan interact with top1 protein human?
+Does tenifatecan interact with top1 protein human?
+Does polyethyleneglycol 7 ethyl 10 hydroxycamptothecin dfp 13318 interact with top1 protein human?
+Does firtecan pegol interact with top1 protein human?
+Does oral irinotecan hydrochloride formulation val 413 interact with top1 protein human?
+Does sarilumab interact with il6r protein human?
+Does trastuzumab interact with erbb2 protein human?
+Does ipilimumab interact with ctla4 protein human?
+Does 5 nucleotidase interact with nucleotide?
+Does 5 nucleotidase interact with atp8a2 protein human?
+Does 5 nucleotidase interact with nucleoside analogs?
+Does 5 nucleotidase interact with nos3 protein human?
+Does acetylaminofluorene interact with ribonucleic acid?
+Does acetylcholinesterase interact with acetylcholinesterase inhibitors?
+Does acetylcholinesterase interact with antibodies?
+Does acetylcholinesterase interact with antioxidants?
+Does acetylcholinesterase interact with cholinesterase inhibitors?
+Does acetylcholinesterase interact with cholinesterases?
+Does acetylcholinesterase interact with pharmaceutical preparations?
+Does acetylcholinesterase interact with enzymes?
+If atezolizumab interacts with cd274 protein human, and cd274 protein human is associated with neoplasm, is atezolizumab linked to neoplasm as an adverse effect?
+If atezolizumab interacts with cd274 protein human, and cd274 protein human is associated with tumor escape, is atezolizumab linked to tumor escape as an adverse effect?
+If atezolizumab interacts with cd274 protein human, and cd274 protein human is associated with decreased immunologic activity pe, is atezolizumab linked to decreased immunologic activity pe as an adverse effect?
+If atezolizumab interacts with cd274 protein human, and cd274 protein human is associated with tumor immunity, is atezolizumab linked to tumor immunity as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with beta thalassemia, is 5 nucleotidase linked to beta thalassemia as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with dna damage, is 5 nucleotidase linked to dna damage as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with hereditary disease, is 5 nucleotidase linked to hereditary disease as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with neoplasm, is 5 nucleotidase linked to neoplasm as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with poisoning, is 5 nucleotidase linked to poisoning as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with epilepsy, is 5 nucleotidase linked to epilepsy as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with frameshift mutation function, is 5 nucleotidase linked to frameshift mutation function as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with abnormal shape, is 5 nucleotidase linked to abnormal shape as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with nonsense mutation, is 5 nucleotidase linked to nonsense mutation as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with cytotoxicity, is 5 nucleotidase linked to cytotoxicity as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with contraction finding, is 5 nucleotidase linked to contraction finding as an adverse effect?
+If 5 nucleotidase interacts with nucleotide, and nucleotide is associated with gene deletion abnormality, is 5 nucleotidase linked to gene deletion abnormality as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with acidosis disorder, is 5 nucleotidase linked to acidosis disorder as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with diabetes, is 5 nucleotidase linked to diabetes as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with pathological dilatation, is 5 nucleotidase linked to pathological dilatation as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with hyperemia, is 5 nucleotidase linked to hyperemia as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with ischemic disease, is 5 nucleotidase linked to ischemic disease as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with necrosis, is 5 nucleotidase linked to necrosis as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with epilepsy, is 5 nucleotidase linked to epilepsy as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with tangier disease, is 5 nucleotidase linked to tangier disease as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with traumatic injury, is 5 nucleotidase linked to traumatic injury as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with tension, is 5 nucleotidase linked to tension as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with functional disorder, is 5 nucleotidase linked to functional disorder as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with substance dependence, is 5 nucleotidase linked to substance dependence as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with cytotoxicity, is 5 nucleotidase linked to cytotoxicity as an adverse effect?
+If 5 nucleotidase interacts with atp8a2 protein human, and atp8a2 protein human is associated with cell injury, is 5 nucleotidase linked to cell injury as an adverse effect?
+If adalimumab interacts with infliximab, can that lead to colitis?
+Could the combination of adalimumab and etanercept cause psoriasis?
+Does pembrolizumab’s interaction with adalimumab increase the risk of hepatitis?
+Is hepatitis a possible consequence of infliximab interacting with etanercept?
+When tacrolimus is used with cyclosporine, does it result in nephrotoxicity?
+If valproate interacts with carbamazepine, can that lead to hepatotoxicity?
+Could the combination of digoxin and amiodarone cause arrhythmia?
+Does tacrolimus’s interaction with azole antifungals increase the risk of acute kidney injury?
+Is autoimmune hepatitis a possible consequence of adalimumab interacting with methotrexate?
+When pembrolizumab is used with denosumab, does it result in pneumonitis?
+If pegylated liposomal irinotecan interacts with tenifatecan, can that lead to DNA strand break?
+Does tenifatecan’s interaction with firtecan pegol increase the risk of cytotoxicity?
+Could the combination of tacrolimus and rifampin cause allograft rejection?
+Does valproate interact with topiramate to cause metabolic acidosis?
+If infliximab interacts with live vaccines, can that lead to serious infection?
+When pembrolizumab is used with high-dose steroids, does immune suppression result?
+Does digoxin’s interaction with clarithromycin increase the risk of digoxin toxicity?
+Could tacrolimus and calcium channel blockers together cause hypotension?
+Is acute kidney failure a possible consequence of infliximab interacting with corticosteroids?
+When valproate is used with lamotrigine, does it result in Stevens–Johnson syndrome?
+If adalimumab interacts with denosumab, can osteonecrosis of the jaw occur?
+Do tacrolimus and azole antifungals together raise nephrotoxicity risk?
+Could coadministration of digoxin and macrolides cause digoxin toxicity?
+Does pembrolizumab combined with adalimumab lead to pneumonitis?
+When valproate and carbamazepine are coadministered, is hepatotoxicity increased?
+If tacrolimus interacts with cyclosporine, can renal impairment result?
+Does firtecan pegol interacting with oral irinotecan hydrochloride increase gastric ulcer risk?
+Is Guillain–Barré syndrome a consequence of pembrolizumab interacting with adalimumab?
+Could autoimmune colitis result from pembrolizumab and infliximab combined?
+Does valproate interact with carbamazepine to cause bone marrow suppression?
+When tacrolimus interacts with corticosteroids, does hypertension result?
+If digoxin interacts with clarithromycin, can clinically significant arrhythmia occur?
+Could sclerosing cholangitis result from pembrolizumab interacting with cyclosporine?
+Do carcinogens interacting with antigenic stimuli lead to adenocarcinoma?
+When autoantigens trigger autoimmune reactions, do they lead to demyelination?
+If antigens trigger antibody-dependent enhancement, can clinically relevant allergic rhinitis occur?
+Does adalimumab interact with interferon-alpha to increase hepatitis risk?
+Could pembrolizumab interact with other anti-PD-1 agents causing hemophagocytic syndrome?
+When antigen exposure causes spontaneous abortion, does alloimmunization play a role?
+Does digoxin interacting with macrolides lead to toxicity that requires monitoring?
+Could tacrolimus and rifampin co-therapy cause rejection due to decreased tacrolimus levels?
+Is nephrotoxicity more likely with tacrolimus and azole antifungals co-therapy?
+Does co-therapy with digoxin and amiodarone necessitate dose reduction due to toxicity?
+When adalimumab is combined with infliximab, are infection risks increased?
+Does pembrolizumab combined with steroids change response rates via immune modulation?
+Could autoimmune hepatitis result from adalimumab interacting with methotrexate?   # duplicate of earlier idea; kept for dedupe demo
+Does tenifatecan interacting with irinotecan lead to demyelination?
+If valproate interacts with lamotrigine, can rash risk increase?
+When digoxin is taken with azole antifungals, does serum level monitoring become necessary?
+Does tacrolimus interacting with cyclosporine lead to dose reduction due to nephrotoxicity?

@@ -1,0 +1,175 @@
+﻿import json, csv
+from pathlib import Path
+import numpy as np
+import torch, faiss
+from transformers import AutoTokenizer, AutoModel
+
+def infer_type(kg_id:str, name:str)->str:
+    k = (kg_id or "").lower()
+    n = (name or "").lower()
+
+    # Protein first (order matters)
+    if "_protein_" in k or " protein " in f" {n} " or n.endswith(" receptor") or " receptor " in f" {n} ":
+        return "protein"
+
+    # ID-based hints
+    if any(h in k for h in ["disease_","mesh","doid","omim","icd"]):     return "disease"
+    if any(h in k for h in ["gene_","hgnc","ensembl"]):                   return "gene"
+    if any(h in k for h in ["chemical_","chebi","inchi"]):                return "chemical"
+    if any(h in k for h in ["drug_","rxnorm","drugbank","chebi"]):        return "drug"
+
+    # Name fallback
+    if any(w in n for w in ["syndrome","disease","cancer","infection"]):  return "disease"
+    return "drug"
+def _yield_pairs(obj):
+    """
+    Uniformly yield (kg_id, surface) from various overlay schemas:
+      1) { kg_id: {names:[...]} }
+      2) { kg_id: [ ...synonyms... ] }
+      3) { surface: kg_id }      (reverse map)
+      4) [ {"kg_id": "...", "synonyms": [...]}, ... ]  (array)
+    """
+    if isinstance(obj, dict):
+        # case 1 or 2 or 3
+        for k, v in obj.items():
+            if isinstance(v, dict):
+                names = v.get("names") or v.get("synonyms") or v.get("terms") or []
+                for s in names:
+                    s = (s or "").strip()
+                    if s: yield str(k), s
+            elif isinstance(v, list):
+                # case 2: kg_id -> [synonyms]
+                for s in v:
+                    s = (s or "").strip()
+                    if s: yield str(k), s
+            else:
+                # case 3: surface -> kg_id
+                s = (k or "").strip()
+                kg = (v or "").strip()
+                if s and kg:
+                    yield str(kg), s
+    elif isinstance(obj, list):
+        # case 4: array with objects
+        for it in obj:
+            if not isinstance(it, dict): 
+                continue
+            kg = (it.get("kg_id") or "").strip()
+            for s in (it.get("synonyms") or it.get("names") or it.get("terms") or []):
+                s = (s or "").strip()
+                if kg and s:
+                    yield str(kg), s
+
+def load_overlay_pairs(overlay_path: str):
+    j = json.loads(Path(overlay_path).read_text(encoding="utf-8"))
+    for kg_id, surface in _yield_pairs(j):
+        yield kg_id, surface
+
+def load_manual_aliases(path: str):
+    p=Path(path)
+    if not p.exists(): return []
+    out=[]
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line=line.strip()
+        if not line: continue
+        try:
+            it=json.loads(line)
+            kg = (it.get("kg_id") or "").strip()
+            for s in (it.get("synonyms") or []):
+                s = (s or "").strip()
+                if kg and s: out.append((kg, s))
+        except Exception:
+            pass
+    return out
+
+class NameNormalizer:
+    def __init__(self, cfg_path:str): pass
+    def normalize_list(self, name:str):
+        if not name: return []
+        n=name.strip()
+        return sorted({n, n.lower(), n.replace("-"," "), n.replace("_"," "), n.replace("  "," ")})
+
+def build_rows(overlay_path:str, norm_cfg:str):
+    norm=NameNormalizer(norm_cfg)
+    seen=set(); rows=[]
+    # overlay
+    for kg_id, name in load_overlay_pairs(overlay_path):
+        for variant in norm.normalize_list(name):
+            key=(kg_id, variant.lower())
+            if key in seen: continue
+            seen.add(key)
+            rows.append({"kg_id": kg_id, "text": variant, "entity_type": infer_type(kg_id, variant)})
+    # manual aliases generated from KG ids
+    manual_path = str(Path(overlay_path).with_name("aliases.manual.jsonl"))
+    for kg_id, name in load_manual_aliases(manual_path):
+        for variant in norm.normalize_list(name):
+            key=(kg_id, variant.lower())
+            if key in seen: continue
+            seen.add(key)
+            rows.append({"kg_id": kg_id, "text": variant, "entity_type": infer_type(kg_id, variant)})
+    # finalize schema
+    fixed=[]
+    for r in rows:
+        kg=str(r.get("kg_id","")).strip()
+        tx=str(r.get("text","")).strip()
+        et=r.get("entity_type") or infer_type(kg, tx)
+        fixed.append({"kg_id": kg, "text": tx, "entity_type": et})
+    return fixed
+
+def encode_and_index(rows, out_dir:str, model_name:str, batch_size:int=64, device=None):
+    device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+    tok = AutoTokenizer.from_pretrained(model_name, use_fast=True)
+    mdl = AutoModel.from_pretrained(model_name).to(device).eval()
+
+    buckets={}
+    for r in rows:
+        buckets.setdefault(r["entity_type"], []).append(r)
+
+    Path(out_dir).mkdir(parents=True, exist_ok=True)
+    for etype, items in buckets.items():
+        et_dir = Path(out_dir)/etype
+        et_dir.mkdir(parents=True, exist_ok=True)
+        texts=[r["text"] for r in items]
+        vecs=[]
+        with torch.no_grad():
+            for i in range(0, len(texts), batch_size):
+                batch = texts[i:i+batch_size]
+                x = tok(batch, padding=True, truncation=True, max_length=64, return_tensors="pt").to(device)
+                h = mdl(**x).last_hidden_state
+                m = x["attention_mask"].unsqueeze(-1)
+                pooled = (h*m).sum(1) / m.sum(1).clamp(min=1e-9)
+                pooled = torch.nn.functional.normalize(pooled, p=2, dim=1)
+                vecs.append(pooled.cpu().numpy().astype("float32"))
+        V = np.vstack(vecs) if vecs else np.zeros((0,768), dtype="float32")
+
+        with open(et_dir/"rows.jsonl", "w", encoding="utf-8") as w:
+            for r in items:
+                w.write(json.dumps(r, ensure_ascii=False)+"\n")
+
+        index = faiss.IndexFlatIP(V.shape[1] if V.size else 768)
+        if V.size: index.add(V)
+        faiss.write_index(index, str(et_dir/"index.faiss"))
+        print(f"[FAISS] {etype}: {len(items)} rows")
+
+def main():
+    import argparse
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--overlay", required=True)
+    ap.add_argument("--norm_cfg", required=True)
+    ap.add_argument("--out_dir", required=True)
+    ap.add_argument("--model_name", required=True)
+    ap.add_argument("--batch_size", type=int, default=64)
+    args=ap.parse_args()
+
+    rows = build_rows(args.overlay, args.norm_cfg)
+    print(f"[KB] concepts (after dedupe): {len(rows)}")
+    counts={}
+    for r in rows: counts[r["entity_type"]] = counts.get(r["entity_type"],0)+1
+    print(counts)
+    encode_and_index(rows, args.out_dir, args.model_name, args.batch_size)
+
+if __name__ == "__main__":
+    main()
+
+
+
+

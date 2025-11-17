@@ -1,0 +1,35 @@
+﻿{
+  "python": "3.11.13 | packaged by conda-forge | (main, Jun  4 2025, 14:39:58) [MSC v.1943 64 bit (AMD64)]",
+  "modules": {
+    "transformers": {
+      "version": "4.57.1",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\transformers\\__init__.py"
+    },
+    "datasets": {
+      "version": "4.4.1",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\datasets\\__init__.py"
+    },
+    "accelerate": {
+      "version": "1.11.0",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\accelerate\\__init__.py"
+    },
+    "torch": {
+      "version": "2.4.1+cu118",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\torch\\__init__.py"
+    },
+    "torchvision": {
+      "version": "0.19.1+cu118",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\torchvision\\__init__.py"
+    },
+    "torchaudio": {
+      "version": "2.4.1+cu118",
+      "file": "F:\\conda-envs\\gcorag-lite-cu118\\Lib\\site-packages\\torchaudio\\__init__.py"
+    }
+  },
+  "cuda": {
+    "is_available": true,
+    "device_count": 1,
+    "current_device": 0,
+    "torch_cuda_version": "11.8"
+  }
+}
