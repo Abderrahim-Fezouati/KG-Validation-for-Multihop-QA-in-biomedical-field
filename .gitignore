@@ -1,0 +1,42 @@
+﻿# Large models / checkpoints
+/models/
+**/checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+
+# Generated indices and search artifacts
+/artifacts/
+/indices/
+
+# Run outputs, caches, logs, temp
+/out/
+/temp/
+/tmp/
+/cache/
+/logs/
+
+# Local env dumps
+/env/
+venv/
+/.venv/
+pip_freeze.txt
+conda_list.txt
+
+# Big data files (optional)
+#/data/corpus.jsonl
+#/data/kg_edges.*
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tool outputs
+/tools/*.log
+large_files/
